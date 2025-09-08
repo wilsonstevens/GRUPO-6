@@ -1,0 +1,17 @@
+# Configuración del Microservicio de Inventario
+# Copia este archivo como .env y ajusta los valores según tu entorno
+
+# Configuración de la aplicación
+FLASK_ENV=development
+SECRET_KEY=your-secret-key-here
+
+# Configuración de la base de datos
+DATABASE_URL=sqlite:///inventory.db
+
+# Configuración del servidor
+HOST=0.0.0.0
+PORT=5000
+DEBUG=True
+
+# Configuración adicional
+JSON_SORT_KEYS=False
