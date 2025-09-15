@@ -6,7 +6,7 @@ import time
 # Parámetros del experimento
 NUM_CORRIDAS = 60                   # cuántas corridas hacer
 PETICIONES_POR_CORRIDA = 100        # cuántas peticiones en cada corrida
-URL_ENDPOINT = "http://localhost:8080"  # cambia a tu endpoint real
+URL_ENDPOINT = "http://localhost:8080/api/api/inventory"  # cambia a tu endpoint real
 TIMEOUT = 5                         # segundos de espera máximo por petición
 
 resultados = []
